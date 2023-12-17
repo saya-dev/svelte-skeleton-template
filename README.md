@@ -4,30 +4,24 @@ This template should help get you started developing with Svelte using Skeleton 
 
 ## Features
 
-### Svelte + TS with Vite
+-  Svelte + TS with Vite
 
-### Prettier with TailwindCSS plugin
+-  Prettier + ESLint with TailwindCSS plugin
 
-### Skeleton UI with custom theme installed
+-  Skeleton UI with custom theme installed
 
-### All Tailwind Plugins & PurgeCSS & Floating UI Popup installed for Skeleton UI
+-  All Tailwind Plugins & PurgeCSS & Floating UI Popup installed for Skeleton UI
 
 ## Scripts
 
-### Start a development server
+-  `npm install` - Installs dependendices
 
-`npm run dev`
+-  `npm run dev` - Starts a development server
 
-### Run svelte-check
+-  `npm run format` - Runs prettier
 
-`npm run check`
-or
-`npm run check:watch`
+-  `npm run lint` - Runs eslint check
 
-### Run format
+-  `npm run check` or `npm run check:watch` - Runs svelte-check
 
-`npm run format`
-
-### Build the application
-
-`npm run build`
+-  `npm run build` - Build the application
