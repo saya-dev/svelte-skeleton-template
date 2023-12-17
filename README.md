@@ -24,4 +24,4 @@ This template should help get you started developing with Svelte using Skeleton 
 
 -  `npm run check` or `npm run check:watch` - Runs svelte-check
 
--  `npm run build` - Build the application
+-  `npm run build` - Builds the application
