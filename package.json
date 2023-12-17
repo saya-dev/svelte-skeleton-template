@@ -9,7 +9,7 @@
       "preview": "vite preview",
       "lint": "prettier --check . && eslint .",
       "format": "prettier --write .",
-      "check": "svelte-check --tsconfig ./tsconfig.json"
+      "check": "svelte-check --tsconfig ./tsconfig.node.json"
    },
    "devDependencies": {
       "@skeletonlabs/skeleton": "^2.6.0",
