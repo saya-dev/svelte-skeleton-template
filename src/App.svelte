@@ -1,4 +1,5 @@
 <script>
+   import { LightSwitch } from '@skeletonlabs/skeleton';
    import Logo from './assets/svelte.png';
    import Counter from './lib/Counter.svelte';
 </script>
@@ -22,6 +23,7 @@
          <li><code class="code">/src/app.postcss</code> - app wide css</li>
          <li><code class="code">/src/theme.ts</code> - custom theme</li>
          <li><code class="code">/src/App.svelte</code> - this page, you can replace the contents</li>
+         <li class="mt-2 flex gap-2"><LightSwitch /> - light switch, persisted (refresh the page)</li>
          <li class="mt-2"><Counter /> - counter</li>
       </ul>
    </div>
